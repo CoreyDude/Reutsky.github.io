@@ -1,0 +1,122 @@
+/* замена ВСЕХ зеленых кнопок на зеленые (для красоты+аутентичности) */
+.btn-success {
+    background-color: #469533 !important;
+    border-color: #3a7a28 !important;
+}
+
+.btn-success:hover {
+    background-color: #3a7a28 !important;
+    border-color: #2e5f1f !important;
+}
+
+.btn-success:active {
+    background-color: #2e5f1f !important;
+    border-color: #1f4014 !important;
+}
+
+.btn-outline-success {
+    color: #469533 !important;
+    border-color: #469533 !important;
+}
+
+.btn-outline-success:hover {
+    background-color: #469533 !important;
+    color: white !important;
+    border-color: #469533 !important;
+}
+
+.btn-primary {
+    background-color: #469533 !important;
+    border-color: #3a7a28 !important;
+}
+
+.btn-primary:hover {
+    background-color: #3a7a28 !important;
+    border-color: #2e5f1f !important;
+}
+
+/* замена цвета на градиент для футера и хэдера */
+.navbar.bg-light {
+    background: linear-gradient(135deg, #89e273 0%, #469533 100%) !important;
+}
+
+/* КРЕМОВЫЙ ФОН ДЛЯ ВСЕГО САЙТА */
+body {
+    background-color: #fef9e6 !important;
+    background-image: radial-gradient(circle at 10% 20%, rgba(255,245,215,0.5) 0%, rgba(254,249,230,0.8) 90%);
+}
+
+/* Улучшение читаемости контента на кремовом фоне */
+.card, .table, .alert, .navbar, footer {
+    background-color: rgba(255, 255, 255, 0.92);
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+/* Затемнение для читаемости текста на карточках */
+.card-body {
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+/* ФУТЕР С ПОЛУПРОЗРАЧНЫМ ИЗОБРАЖЕНИЕМ ПОЛЕЙ */
+.footer {
+    background: linear-gradient(rgba(70, 149, 51, 0.85), rgba(70, 149, 51, 0.9)), 
+                url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1000&auto=format') !important;
+    background-size: cover !important;
+    background-position: center 30% !important;
+    color: white !important;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.footer .container {
+    background-color: transparent;
+}
+
+.footer a {
+    color: #ffd966;
+}
+
+/* Стили для карточек товаров с изображениями */
+.product-card {
+    transition: all 0.3s ease;
+}
+
+.product-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+/* Улучшение читаемости таблиц */
+.table {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.table thead {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+/* Хлебные крошки и заголовки */
+h1, h2, h3, h4, h5 {
+    color: #2d4a1e;
+    font-weight: 600;
+}
+
+/* Блок контактов */
+.contact-card {
+    background: linear-gradient(135deg, #ffffff 0%, #fef9e6 100%);
+    border-left: 5px solid #469533;
+}
